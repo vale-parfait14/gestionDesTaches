@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "routes": [
+      {
+        "src": "/api/(.*)",
+        "dest": "/backend/server.js"
+      }
+    ],
+    "build": {
+      "env": {
+        "MONGO_URI": "mongodb+srv://sun:Passer@cluster01.jcy7g.mongodb.net/data01?retryWrites=true&w=majority&appName=Cluster01"
+      }
+    }
+  }
+  
